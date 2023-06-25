@@ -56,6 +56,8 @@ type Stop struct {
 	Longitude   float64 `csv:"stop_lon"`
 	Type        string  `csv:"location_type"`
 	Parent      string  `csv:"parent_station"`
+	ASWNodeID   string  `csv:"asw_node_id"`
+	ASWStopID   string  `csv:"asw_stop_id"`
 }
 
 // StopTime -
