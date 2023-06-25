@@ -171,7 +171,7 @@ type FareRule struct {
 	RouteID       string `csv:"route_id"`
 	OriginID      string `csv:"origin_id"`
 	DestinationID string `csv:"destination_id"`
-	ContainsID    int    `csv:"contains_id"`
+	ContainsID    string `csv:"contains_id"`
 }
 
 // Pathway -
